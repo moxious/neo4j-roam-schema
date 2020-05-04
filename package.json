@@ -1,0 +1,27 @@
+{
+  "name": "neo4j-roam-schema",
+  "version": "0.0.1",
+  "description": "Convert Neo4j Schemas into Markdown documentation",
+  "main": "lib/index.js",
+  "scripts": {
+    "schema": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.1",
+    "neo4j-driver": "^4.0.2",
+    "path": "^0.12.7",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
