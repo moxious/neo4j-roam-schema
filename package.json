@@ -13,7 +13,7 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "lodash": "^4.17.15",
-    "moment": "^2.25.1",
+    "moment": "^2.29.4",
     "neo4j-driver": "^4.0.2",
     "path": "^0.12.7",
     "yargs": "^15.3.1"
